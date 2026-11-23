@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 510" role="img" aria-labelledby="t"><title id="t">Ultrasonic automated lid prototype schematic</title>
+<defs><linearGradient id="a" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#c3e5d1"/><stop offset="1" stop-color="#547e71"/></linearGradient><linearGradient id="b" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#557c70"/><stop offset="1" stop-color="#294e4c"/></linearGradient></defs>
+<ellipse cx="345" cy="447" rx="235" ry="27" fill="#0d2626" opacity=".65"/>
+<!-- base bin -->
+<path d="M195 228 390 181 513 247 310 303Z" fill="#8ba99b" stroke="#d9edcb" stroke-width="6"/><path d="m195 228 115 75v132L196 351Z" fill="#315750" stroke="#8eb3a0" stroke-width="5"/><path d="m310 303 203-56-1 120-202 68Z" fill="url(#b)" stroke="#a8c9b5" stroke-width="5"/><path d="M217 245 391 204 482 251 310 289Z" fill="#0c2424" stroke="#769589" stroke-width="3"/>
+<!-- raised hinged lid -->
+<path d="m191 174 181-93 156 59-172 96Z" fill="url(#a)" stroke="#d2ebbc" stroke-width="7" stroke-linejoin="round"/><path d="m212 176 160-79 129 48-144 76Z" fill="#345e55" stroke="#c0ddad" stroke-width="3"/><path d="M356 236 390 181" stroke="#d2f46e" stroke-width="9" stroke-linecap="round"/><circle cx="355" cy="235" r="12" fill="#d2f46e" stroke="#28473c" stroke-width="5"/>
+<!-- stepper motor and linkage -->
+<path d="m459 310 39-8 0 40-39 10Z" fill="#abcbb0" stroke="#e5eeca" stroke-width="3"/><path d="m458 310-27-15 40-8 27 15Z" fill="#6e9287" stroke="#e1f5cb" stroke-width="3"/><path d="m432 294 0 41 26 17v-42Z" fill="#2c4844" stroke="#b6d0ba" stroke-width="3"/><circle cx="458" cy="326" r="8" fill="#d2f46e"/><path d="m457 326-38-38-37-77" fill="none" stroke="#d2f46e" stroke-width="7" stroke-linejoin="round" stroke-linecap="round"/><circle cx="419" cy="288" r="8" fill="#172d2a" stroke="#e3f4c1" stroke-width="4"/>
+<!-- ultrasonic sensor -->
+<path d="m224 294 66-18 35 21-68 19Z" fill="#2d5550" stroke="#b3cdbd" stroke-width="3"/><circle cx="248" cy="298" r="11" fill="#141d1b" stroke="#d2f46e" stroke-width="5"/><circle cx="276" cy="291" r="11" fill="#141d1b" stroke="#d2f46e" stroke-width="5"/><g fill="none" stroke="#d2f46e" stroke-width="3" opacity=".85"><path d="M258 268q11-23 29-31"/><path d="M249 253q13-34 42-49"/><path d="M240 239q18-47 52-67"/></g>
+<!-- microcontroller -->
+<path d="m328 355 85-23 51 26-87 25Z" fill="#0f493d" stroke="#d0ecc4" stroke-width="4"/><path d="m338 355 74-18 36 20-72 19Z" fill="#246f54"/><rect x="360" y="350" width="36" height="14" rx="3" transform="rotate(-14 360 350)" fill="#d2f46e"/><g fill="#d0e9bf"><circle cx="346" cy="361" r="3"/><circle cx="409" cy="343" r="3"/><circle cx="428" cy="359" r="3"/></g><path d="M370 378 315 316" fill="none" stroke="#d2f46e" stroke-width="2" stroke-dasharray="6 6"/>
+<!-- annotations -->
+<g fill="none" stroke="#d2f46e" stroke-width="1.6" opacity=".85"><path d="M369 86 426 47h128"/><circle cx="369" cy="86" r="4" fill="#d2f46e"/><path d="M276 290 132 319H55"/><circle cx="276" cy="290" r="4" fill="#d2f46e"/><path d="M457 324 529 402h98"/></g><g fill="#d2f46e" font-family="monospace" font-size="14" letter-spacing="1"><text x="431" y="39">HINGED LID</text><text x="52" y="310">HC-SR04</text><text x="541" y="394">STEPPER</text></g>
+</svg>

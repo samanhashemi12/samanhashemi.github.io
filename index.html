@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#061524">
+<meta name="description" content="Saman Hashemi — mechanical engineering student at Rutgers University. Selected robotics, SolidWorks, research, and prototyping projects.">
+<title>Saman Hashemi — Engineering Portfolio</title>
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+<link rel="stylesheet" href="styles.css"><script defer src="app.js"></script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<div class="backdrop-grid" aria-hidden="true"></div>
+<header class="site-header">
+ <div class="shell header-inner">
+  <a href="#home" class="wordmark" data-nav="home" aria-label="Saman Hashemi Home"><span class="wordmark-name">Saman Hashemi</span><span class="wordmark-sub">ENGINEERING PORTFOLIO</span></a>
+  <nav class="desktop-nav" aria-label="Main navigation">
+   <a href="#home" data-nav="home" class="active">Home</a><a href="#projects" data-nav="projects">Projects</a><a href="#experience" data-nav="experience">Experience</a><a href="#about" data-nav="about">About</a><a href="#contact" data-nav="contact">Contact</a>
+  </nav>
+  <div class="header-actions"><a class="resume-link" href="assets/Saman_Hashemi_Resume.pdf" target="_blank" rel="noopener">Résumé <span aria-hidden="true">↗</span></a><button type="button" class="menu-toggle" id="menu-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="mobile-nav"><span>☰</span></button></div>
+ </div>
+ <nav id="mobile-nav" class="mobile-nav" aria-label="Mobile navigation" hidden><a href="#home" data-nav="home">Home</a><a href="#projects" data-nav="projects">Projects</a><a href="#experience" data-nav="experience">Experience</a><a href="#about" data-nav="about">About</a><a href="#contact" data-nav="contact">Contact</a></nav>
+</header>
+<main id="main" tabindex="-1">
+ <section id="page-home" data-page="home" class="page active">
+  <div class="shell hero">
+   <div class="hero-copy">
+    <p class="microhead"><span class="slashes">//</span> MECHANICAL ENGINEERING PORTFOLIO <span class="hairline"></span></p>
+    <div class="availability"><span class="available-dot"></span> AVAILABLE FOR SUMMER 2027 INTERNSHIPS</div>
+    <h1>Mechanical engineering student.</h1>
+    <div class="cyan-stroke"></div>
+    <p class="hero-intro">I’m <strong>Saman Hashemi</strong>, a mechanical engineering student at Rutgers University–New Brunswick. My work spans SolidWorks CAD, robotic assemblies, research support, and hands-on prototyping.</p>
+    <div class="action-row"><a href="#projects" data-nav="projects" class="button button-primary">View Projects <span>→</span></a><a href="#about" data-nav="about" class="button button-outline">Learn More <span>↗</span></a></div>
+    <div class="home-aside"><span class="aside-square"></span> FROM COMPONENTS AND CAD MODELS TO HARDWARE THAT CAN BE BUILT AND TESTED</div>
+   </div>
+   <div class="hero-visual"><div class="hero-frame"><div class="hero-frame-head"><span><i>//</i> FEATURED WORK</span><span>PRJ-01 · TECHNICAL STUDY</span></div><div class="hero-art"><img src="assets/technical/rudynamics-sheet.webp" alt="Annotated RU Dynamics quadruped hardware technical project sheet with actual workshop photo" loading="eager"></div><div class="hero-frame-foot"><div><small>RU DYNAMICS</small><strong>Quadruped Robot Development</strong></div><a href="#projects/rudynamics" data-project-link="rudynamics" aria-label="View RU Dynamics project">↗</a></div></div></div>
+  </div>
+  <div class="shell metrics-row"><div class="metric"><div class="metric-icon">▱</div><div><small>MAJOR GPA</small><strong>3.91 <span>/ 4.00</span></strong></div></div><div class="metric"><div class="metric-icon rutgers-r">R</div><div><small>RUTGERS UNIVERSITY</small><strong>Class of 2028</strong></div></div><div class="metric"><div class="metric-icon">▣</div><div><small>DESIGN SKILLS</small><strong>SolidWorks / CAD</strong></div></div><div class="metric"><div class="metric-icon">⚙</div><div><small>APPROACH</small><strong>Build · Test · Improve</strong></div></div></div>
+  <div class="shell home-bottom"><div><span class="section-index">PROJECT SPOTLIGHTS</span><h2>A closer look at the work.</h2></div><p>Explore mechanical design, research, and personal builds—each with a technical project sheet and the real photos or source files available.</p><a href="#projects" data-nav="projects" class="text-link">All projects <span>↗</span></a></div>
+  <div class="shell spotlight-grid" id="spotlight-grid"></div>
+ </section>
+ <section id="page-projects" data-page="projects" class="page" hidden>
+  <div class="shell section-intro"><p class="eyebrow"><span class="slashes">///</span> SELECTED WORK / 2023—2026</p><div class="intro-row"><h1>Projects<span class="period">.</span></h1><p>Mechanical designs, robotics builds, prototypes, and research. The technical sheets are presentation layouts; original CAD models and real photos are shown where available.</p></div></div>
+  <div id="project-list" class="shell"><div class="filters" role="group" aria-label="Filter projects"><span class="filter-label">FILTER</span><button class="filter active" data-filter="all" aria-pressed="true">All <span>08</span></button><button class="filter" data-filter="robotics" aria-pressed="false">Robotics</button><button class="filter" data-filter="cad" aria-pressed="false">CAD</button><button class="filter" data-filter="research" aria-pressed="false">Research</button><button class="filter" data-filter="concepts" aria-pressed="false">Concepts</button></div><div id="projects-grid" class="project-grid"></div><p class="projects-note">Project sheets are designed summaries, not dimensioned or certified engineering drawings. CAD and photographs reflect the source materials where supplied.</p></div>
+  <div id="project-detail" class="shell project-detail" hidden aria-live="polite"></div>
+ </section>
+ <section id="page-experience" data-page="experience" class="page" hidden>
+  <div class="shell section-intro"><p class="eyebrow"><span class="slashes">///</span> PROFESSIONAL EXPERIENCE</p><div class="intro-row"><h1>Experience<span class="period">.</span></h1><p>Engineering internships, academic research, technical teamwork, and operational responsibility.</p></div></div>
+  <div class="shell experience-layout"><div class="experience-lead panel"><p class="tiny-label">APPROACH / WORK</p><h2>Connecting design requirements with real-world constraints.</h2><p>My work has combined component research, supplier communication, construction coordination, and prototype development.</p><a href="assets/Saman_Hashemi_Resume.pdf" class="text-link" target="_blank" rel="noopener">Read résumé ↗</a></div><div class="timeline">
+   <article class="exp-row"><div class="exp-time">MAY 2026 — PRESENT</div><div><span class="exp-kicker">01 / INDUSTRY</span><h3>Mechanical Applications Engineering Intern</h3><h4>Valve Industries</h4><p>Review mechanical component specifications, resolve technical discrepancies, compare vendor quotations, and calculate landed costs to support project requirements and budgets.</p></div></article>
+   <article class="exp-row"><div class="exp-time">DEC 2025 — PRESENT</div><div><span class="exp-kicker">02 / DESIGN TEAM</span><h3>Mechanical Design & Assembly Team Member</h3><h4>RU Dynamics · Rutgers University</h4><p>Design quadruped chassis components in SolidWorks and collaborate on assembly using T-slot extrusions and externally fabricated metal parts.</p></div></article>
+   <article class="exp-row"><div class="exp-time">JAN 2025 — JAN 2026</div><div><span class="exp-kicker">03 / RESEARCH</span><h3>Undergraduate Research Assistant</h3><h4>Professor Jingang Yi’s Robotics Lab · Rutgers</h4><p>Supported agricultural robot testing, mechanical troubleshooting, camera-mount modification, and component research for surface-treatment robotics.</p></div></article>
+   <article class="exp-row"><div class="exp-time">JUN 2024 — AUG 2024</div><div><span class="exp-kicker">04 / FIELD WORK</span><h3>Civil Engineering Intern</h3><h4>Private Construction Company</h4><p>Helped coordinate contractors and laborers, support site safety, address construction issues, and develop practical structural design ideas.</p></div></article>
+   <article class="exp-row"><div class="exp-time">JUN 2021 — PRESENT</div><div><span class="exp-kicker">05 / OPERATIONS</span><h3>Front Desk / Assistant Manager</h3><h4>Garner Hotel by IHG</h4><p>Train employees, support reservation workflows, negotiate group rates, and handle guest communications and confidential information.</p></div></article>
+  </div></div>
+ </section>
+ <section id="page-about" data-page="about" class="page" hidden>
+  <div class="shell section-intro"><p class="eyebrow"><span class="slashes">///</span> BACKGROUND & INTERESTS</p><div class="intro-row"><h1>About<span class="period">.</span></h1><p>A little more about who I am and the way I approach mechanical engineering.</p></div></div>
+  <div class="shell about-grid"><div class="about-hero panel"><p class="tiny-label">ABOUT / SAMAN HASHEMI</p><h2>Curiosity backed by practical work.</h2><p>I’m studying Mechanical Engineering at Rutgers University–New Brunswick, with an aerospace concentration and packaging certificate. I enjoy the part of engineering where a CAD design turns into a physical assembly—and where testing reveals what needs to change.</p><p>My recent work includes research robotics, the RU Dynamics quadruped build, and personal CAD and fabrication projects. I’m especially interested in robotics, automation, mechanical design, and aerospace systems.</p><a href="#contact" data-nav="contact" class="button button-primary">Get in touch <span>→</span></a></div>
+   <div class="about-aside"><div class="info-tile"><span>01 / EDUCATION</span><h3>Rutgers University</h3><p>B.S. Mechanical Engineering<br>Aerospace Concentration & Packaging Certificate<br>Expected May 2028</p><div class="pair"><strong>3.78</strong><small>CUMULATIVE GPA</small><strong>3.91</strong><small>MAJOR GPA</small></div></div><div class="info-tile"><span>02 / TOOLS</span><h3>Technical capabilities</h3><div class="pill-tags"><span>SolidWorks</span><span>CAD assemblies</span><span>Engineering drawings</span><span>MATLAB</span><span>Arduino</span><span>3D printing</span><span>Prototyping</span><span>Mechanical testing</span></div></div><div class="info-tile"><span>03 / HONORS & CERTIFICATIONS</span><h3>Recognition & learning</h3><p>Dean’s List · School of Engineering Presidential Scholarship · Rutgers Coursera certificates in Supply Chain Logistics and Supply Chain Operations</p></div></div>
+  </div>
+ </section>
+ <section id="page-contact" data-page="contact" class="page" hidden>
+  <div class="shell section-intro"><p class="eyebrow"><span class="slashes">///</span> CONTACT DETAILS</p><div class="intro-row"><h1>Contact<span class="period">.</span></h1><p>For engineering opportunities, project discussions, and professional connections.</p></div></div>
+  <div class="shell contact-layout"><div class="contact-lead"><p class="tiny-label">CONTACT / LET'S CONNECT</p><h2>Interested in working together?</h2><p>I’m open to discussing Summer 2027 internships and opportunities to apply my mechanical engineering and robotics background.</p><a href="mailto:samanhashemi1000@gmail.com?subject=Engineering%20Portfolio%20Inquiry" class="button button-primary">Send an email <span>→</span></a></div>
+   <div class="contact-options"><a href="tel:+12019257465" class="contact-option"><span class="contact-icon">☎</span><span><small>PHONE</small><strong>201-925-7465</strong></span><span class="option-arrow">↗</span></a><a href="mailto:samanhashemi1000@gmail.com" class="contact-option"><span class="contact-icon">✉</span><span><small>EMAIL</small><strong>samanhashemi1000@gmail.com</strong></span><span class="option-arrow">↗</span></a><a href="https://www.linkedin.com/in/samanhashemi" target="_blank" rel="noopener noreferrer" class="contact-option"><span class="contact-icon">in</span><span><small>LINKEDIN</small><strong>linkedin.com/in/samanhashemi</strong></span><span class="option-arrow">↗</span></a></div>
+  </div>
+ </section>
+</main>
+<footer class="site-footer"><div class="shell footer-inner"><span><b>Saman Hashemi</b> <span class="footer-muted">// ENGINEERING PORTFOLIO</span></span><span>Rutgers University · New Brunswick, NJ</span><a href="#home" data-nav="home">Back to top ↑</a></div></footer>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>

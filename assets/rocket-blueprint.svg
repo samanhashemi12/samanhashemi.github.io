@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800">
+<defs>
+  <pattern id="g" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M36 0H0V36" fill="none" stroke="#8b9f9f" stroke-width="1" opacity=".18"/></pattern>
+  <style>
+    .w{fill:#eef5f2;font-family:Arial,sans-serif} .s{stroke:#e7f1ee;stroke-width:4;fill:none;stroke-linejoin:round} .a{stroke:#eb9b76;stroke-width:4;fill:none} .c{stroke:#39aac7;stroke-width:3;fill:none} .t{font: 28px Arial,sans-serif;fill:#eef5f2} .sm{font: 20px Arial,sans-serif;fill:#eef5f2;letter-spacing:1px} .tiny{font: 16px Arial,sans-serif;fill:#c6d9d5;letter-spacing:2px}
+  </style>
+</defs>
+<rect width="1200" height="800" fill="#172a2c"/><rect width="1200" height="800" fill="url(#g)"/>
+<rect x="32" y="32" width="1136" height="736" rx="0" fill="none" stroke="#2f8daa" stroke-width="3"/>
+<text x="70" y="90" class="t">TWO-STAGE ROCKET / L1 CERTIFICATION GOAL</text>
+<text x="70" y="125" class="tiny">AIRFRAME  •  RECOVERY  •  COUPLER  •  MOTOR BAY  •  CERT FLIGHT PREP</text>
+<g class="s">
+<path d="M590 170L650 90L710 170V470L780 610H520L590 470Z"/>
+<path d="M590 170H710" stroke-dasharray="0"/>
+<path d="M590 300H710" stroke-dasharray="10 10"/>
+<path d="M590 385H710" stroke-dasharray="10 10"/>
+<path d="M590 470H710" stroke-dasharray="10 10"/>
+<path d="M590 420L520 560L590 528"/>
+<path d="M710 420L780 560L710 528"/>
+<path d="M615 610L600 662"/>
+<path d="M686 610L700 662"/>
+</g>
+<g class="a">
+<circle cx="650" cy="348" r="28"/><circle cx="650" cy="348" r="13"/>
+<line x1="650" y1="172" x2="650" y2="612"/>
+</g>
+<g class="c">
+<line x1="250" y1="210" x2="560" y2="210"/><circle cx="560" cy="210" r="5" fill="#39aac7"/>
+<line x1="220" y1="300" x2="560" y2="300"/><circle cx="560" cy="300" r="5" fill="#39aac7"/>
+<line x1="180" y1="385" x2="560" y2="385"/><circle cx="560" cy="385" r="5" fill="#39aac7"/>
+<line x1="210" y1="468" x2="560" y2="468"/><circle cx="560" cy="468" r="5" fill="#39aac7"/>
+<line x1="250" y1="560" x2="500" y2="560"/><circle cx="500" cy="560" r="5" fill="#39aac7"/>
+<line x1="740" y1="248" x2="1030" y2="248"/><circle cx="740" cy="248" r="5" fill="#39aac7"/>
+<line x1="740" y1="525" x2="1030" y2="525"/><circle cx="740" cy="525" r="5" fill="#39aac7"/>
+</g>
+<text x="70" y="218" class="sm">NOSE CONE</text>
+<text x="70" y="308" class="sm">UPPER AIRFRAME /</text><text x="70" y="333" class="sm">AVIONICS & RECOVERY</text>
+<text x="70" y="393" class="sm">INTERSTAGE / COUPLER</text>
+<text x="70" y="476" class="sm">BOOSTER AIRFRAME</text>
+<text x="70" y="568" class="sm">FIN CAN / MOTOR BAY</text>
+<text x="1045" y="255" class="sm">LEVEL 1 GOAL</text><text x="1045" y="281" class="tiny">Designed to support</text><text x="1045" y="304" class="tiny">L1 certification planning</text>
+<text x="1045" y="532" class="sm">RECOVERY & FIT</text><text x="1045" y="558" class="tiny">Parachute volume,</text><text x="1045" y="581" class="tiny">harness routing, motor fit</text>
+<text x="70" y="735" class="tiny">NOSE CONE  •  UPPER AIRFRAME  •  RECOVERY SECTION  •  COUPLER  •  BOOSTER  •  FINS  •  MOTOR MOUNT</text>
+<text x="1090" y="740" text-anchor="end" class="tiny">ILLUSTRATIVE VIEW</text>
+</svg>

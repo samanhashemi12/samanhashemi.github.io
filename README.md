@@ -4,7 +4,7 @@ A static, five-tab engineering portfolio designed for GitHub Pages. It uses only
 
 ## Website
 
-- Open `index.html` in a browser to preview the website locally.
+- Open `index.html` in a browser to preview the website locally. 
 - Projects include real CAD images, a photo/video gallery, project notes, and selected SolidWorks downloads.
 - The design includes Home, Projects, Experience, About, and Contact.
 - All assets are referenced by relative paths, so the site works at `username.github.io` or `username.github.io/repo-name`.
